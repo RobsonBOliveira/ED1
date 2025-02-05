@@ -1,4 +1,4 @@
-package Lista1.Q312;
+package Lista1.Q31;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ public class CRUD <E> {
 
     public void listarObjetos(){
         for(E obj : myList){
-            System.out.println(obj.hashCode());
+            System.out.println(obj.toString());
         }
     }
 }

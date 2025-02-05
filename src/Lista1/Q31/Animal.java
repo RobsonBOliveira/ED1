@@ -1,15 +1,15 @@
-package Lista1.Q312;
+package Lista1.Q31;
 
-public class Pessoa {
+public class Animal {
     private String nome;
     private int idade;
 
-    public Pessoa(String nome, int idade) {
+    public Animal(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }
 
-    public Pessoa(){};
+    public Animal( ){};
 
     public String getNome() {
         return nome;
@@ -25,5 +25,13 @@ public class Pessoa {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                '}';
     }
 }

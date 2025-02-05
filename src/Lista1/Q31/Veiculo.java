@@ -1,4 +1,4 @@
-package Lista1.Q312;
+package Lista1.Q31;
 
 public class Veiculo {
     private String modelo;
@@ -24,5 +24,13 @@ public class Veiculo {
 
     public void setAno(int ano) {
         this.ano = ano;
+    }
+
+    @Override
+    public String toString() {
+        return "Veiculo{" +
+                "modelo='" + modelo + '\'' +
+                ", ano=" + ano +
+                '}';
     }
 }
